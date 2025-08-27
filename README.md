@@ -1,36 +1,28 @@
-# housing-vs-salaries-poland
-Porównanie cen mieszkań i zarobków w polskich województwach (analiza w Pythonie z Pandas, NumPy, Matplotlib).
+Comparison of flat prices and earnings in Polish provinces (analysis in Python with Pandas, NumPy, Matplotlib).
 
-Projekt przedstawia analizę zależności pomiędzy średnimi zarobkami brutto a cenami mieszkań w poszczególnych województwach w Polsce.  
-Celem było sprawdzenie, w których regionach mieszkania są najbardziej, a w których najmniej dostępne w stosunku do zarobków.
+The project presents an analysis of the relationship between average gross earnings and flat prices in individual provinces in Poland.
+The aim was to check in which regions flats are most and least affordable in relation to earnings.
 
-Struktura projektu:
-- 'analiza_mieszkania_vs_zarobki.ipynb' – notebook Jupyter z pełną analizą  
-- 'ceny_mieszkan.csv' – dane z cenami mieszkań (średnia cena za m²)  
-- 'zarobki.csv' – dane ze średnimi zarobkami brutto  
-- 'README.md' – opis projektu
+Project structure:
 
-Technologie:
-- Python
-- Pandas, NumPy
-- Matplotlib
-- Jupyter Notebook
+* “analiza_mieszkania_vs_zarobki.ipynb” – Jupyter notebook with full analysis
+* “ceny_mieszkan.csv” – data on flat prices (average price per m²)
+* “zarobki.csv” – data on average gross earnings
+* “README.md” – project description
 
-Najważniejsze wnioski:
-Najbardziej dostępne mieszkania:
-    - Podkarpackie - ~1.07 pensji/m2
-    - Świętokrzystkie - ~1.09 pensji/m2
-    - Podlaskie - ~1.09 pensji/m2
-    
-Najmniej dostępne mieszkania:
-    - Dolnoślaskie - ~1.32 pensji/m2
-    - Mazowieckie - ~1.41 pensji/m2
-    - Pomorskie - ~1.52 pensji/m2
+Technologies:
+
+* Python
+* Pandas, NumPy
+* Matplotlib
+* Jupyter Notebook
+
+Key findings: Most affordable flats: - Podkarpackie Province – ~1.07 salary/m² - Świętokrzyskie Province – ~1.09 salary/m² - Podlaskie Province – ~1.09 salary/m²
+
+Least affordable flats: - Dolnośląskie - ~1.32 salary/m2 - Mazowieckie - ~1.41 salary/m2 - Pomorskie - ~1.52 salary/m2
 
     
 <img width="1098" height="546" alt="image" src="https://github.com/user-attachments/assets/bf32eb42-0fc7-4fb5-82ed-a4515b1eb835" />
 
-
-
-Projekt pokazuje, że dostępność mieszkań w Polsce znacząco różni się pomiędzy regionami.
-Wysokie zarobki w dużych miastach (np. Warszawa) nie zawsze przekładają się na lepszą dostępność mieszkań, ponieważ ceny są tam proporcjonalnie dużo wyższe.
+The project shows that the availability of housing in Poland varies significantly between regions.
+High earnings in large cities (e.g. Warsaw) do not always translate into better housing availability, as prices there are proportionally much higher.
